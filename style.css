@@ -1,0 +1,38 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./Image/theatre.jpeg");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+#wrapper {
+    height: auto;
+    width: 800px;
+}
+
+.page-banner {
+    height: auto;
+
+    border: 2px solid #fff;
+
+}
+
+.title,
+.description {
+    color: #fff;
+    text-align: center;
+}
+
+.description {}
