@@ -6,6 +6,7 @@ body {
 
 * {
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -20,12 +21,13 @@ body {
 #wrapper {
     height: auto;
     width: 800px;
+    margin-top: 30px;
 }
 
 .page-banner {
     height: auto;
 
-    border: 2px solid #fff;
+    border: 2px solid #434342;
 
 }
 
@@ -35,4 +37,52 @@ body {
     text-align: center;
 }
 
-.description {}
+.titleM {
+    color: #8c8b92;
+}
+
+#movie-list {
+    background-color: #efefef;
+    padding: 20px 10px;
+}
+
+ul {}
+
+ul>li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #434342;
+
+}
+
+#delete {
+    cursor: pointer;
+    background-color: #ef1905;
+    padding: 8px 25px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+.add-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#add-btn {
+    padding: 8px 25px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #006c00;
+    border: none;
+    cursor: pointer;
+}
+
+.name {
+    padding: 8px;
+}
