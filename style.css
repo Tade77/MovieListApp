@@ -57,7 +57,7 @@ ul>li {
 
 }
 
-#delete {
+.delete {
     cursor: pointer;
     background-color: #ef1905;
     padding: 8px 25px;
@@ -66,7 +66,7 @@ ul>li {
     border: none;
 }
 
-.add-wrapper {
+#add-movies {
     display: flex;
     justify-content: center;
     align-items: center;
